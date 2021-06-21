@@ -6,10 +6,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+html {
   font-family: sans-serif;
   line-height: 1.5;
+}
+
+body {
+  margin: 0;
 }
 
 header {
@@ -29,9 +32,13 @@ nav li {
   padding: 0 1em;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #0074d9;
+}
+
+nav a:hover {
+  color: #fff;
 }
 
 header img {
@@ -40,9 +47,10 @@ header img {
   margin-left: -2rem;
 }
 
-h1 {
+header h1 {
   margin-left: -3rem;
 }
 
-p {
+header p {
+  height:auto;
 }
